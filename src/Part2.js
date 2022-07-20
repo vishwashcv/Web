@@ -13,7 +13,12 @@ import Six from './images/6.jpg';
 import Seven from './images/7.jpg';
 import Eight from './images/8.jpg';
 import Nine from './images/10.jpg';
-
+import Ten from './images/11.jpg';
+import Eleven from './images/12.jpg';
+import Twelve from './images/13.jpg';
+import Thirteen from './images/14.png';
+import Fourteen from './images/15.jpg';
+import Fifteen from './images/16.jpg';
 
 function Partsecond() {
     return (
@@ -94,9 +99,36 @@ function Partsecond() {
                 <img src={Eight} />
                 <img src={Nine} />
             </div>
+            <div className='images-land-full'>
+                <img src={Ten} />
+                <img src={Eleven} />
+                <img src={Twelve} />
+            </div>
+            <h1 className='heading'>Connection App and Web design</h1>
+            <div className='images-web'>
+                
+                <img src={Thirteen}/>
+            </div>
+            <h1 className='heading'>ShoppingLine Website Design</h1>
+            <div className='images-web'>
+                
+                <img src={Fourteen}/>
+            </div>
+            <h1 className='heading'>Shelter Task App Design</h1>
+            <div className='images-web'>
+                
+                <img src={Fifteen}/>
+            </div>
             <footer>
+               <center>
                 <h3><a href='' className='copyr'>By Vishwash © 2022</a></h3>
-                <h5></h5>
+                <br/>  
+            <h5><a href='https://vishwashcv.github.io/portfolio/vishwash.pdf' className='links'>Resume</a></h5>
+            <br/>
+            <h5><a href='https://www.linkedin.com/in/vishwash-cv-59a698233' className='links'>LinkedIn</a></h5>
+            <br/>
+            <h5><a href='https://www.behance.net/vishwashcv' className='links'>Behance</a></h5>
+            <br/></center>
             </footer>
         </div>
     );

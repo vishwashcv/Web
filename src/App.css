@@ -2,13 +2,16 @@
   margin: 0%;
   padding: 0%;
 }
-
+ a{
+  text-decoration: none;
+ }
 body {
   overflow-x: hidden;
   font-family: "Poppins", sans-serif;
+  width: 100%;
 }
 
-.App{
+.App {
   width: 100%;
   height: 100%;
 }
@@ -40,19 +43,9 @@ body {
   height: 100vh;
   color: white;
 }
-.nav a {
-  text-decoration: none;
-  color: white;
-  transition: 0.3s;
-}
 
-.nav h5 {
-  margin-right: 10%;
-}
 
-.nav a:hover {
-  opacity: 0.6;
-}
+
 .front-content {
   margin-top: 15%;
   margin-left: 10%;
@@ -79,8 +72,8 @@ main {
 }
 
 main img {
-  width: 700px;
-  height: 700px;
+  width: 600px;
+  height: 600px;
   animation-name: rotate;
   position: absolute;
   animation-duration: 20s;
@@ -308,13 +301,11 @@ section:before {
   }
 }
 
-
 .Part-1 {
   animation-name: change;
   animation-duration: 30s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-  
 }
 
 .Part-first {
@@ -355,38 +346,15 @@ section:before {
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .Part-second {
   width: 100%;
   height: 100%;
   display: block;
 }
-.Part-second .heading {
+.heading {
   padding-left: 10%;
-  padding: 5%;
+  padding-bottom: 1%;
+  margin-top: 12%;
 }
 
 .Part-second .left {
@@ -395,7 +363,6 @@ section:before {
   float: left;
   margin: 5%;
   transition: 0.2s;
-  
 }
 
 .Part-second .right {
@@ -405,7 +372,6 @@ section:before {
   margin: 5%;
   transition: 0.2s;
 }
-
 
 .content-second-left {
   padding: 5%;
@@ -424,11 +390,10 @@ section:before {
   text-decoration: none;
   color: black;
   border: 1px solid black;
-  
 }
 
 .content-second a {
-  padding:1% 5%;
+  padding: 1% 5%;
 }
 
 .visit:hover {
@@ -436,11 +401,14 @@ section:before {
   animation-duration: 20s;
 }
 
-.one,.two,.three,.four,.five {
+.one,
+.two,
+.three,
+.four,
+.five {
   width: 100vw;
   height: 100vh;
 }
-
 
 .images-land {
   display: flex;
@@ -449,7 +417,7 @@ section:before {
 }
 
 .images-land img {
-  width: 30%;
+  width: 22%;
   padding: 1%;
   transition: 0.1s;
 }
@@ -457,7 +425,7 @@ section:before {
   transform: scale(2);
 }
 
-.Part-second a{
+.Part-second a {
   color: black;
 }
 
@@ -465,15 +433,99 @@ footer {
   background-color: rgb(255, 255, 255);
   width: 100vw;
   height: 40vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: block;
+}
+
+.links {
+  text-decoration: none;
+  margin: 20px;
 }
 
 .copyr {
   text-decoration: none;
 }
 
-.left:hover, .right:hover {
+.left:hover,
+.right:hover {
   transform: scale(1.1);
+  box-shadow: 1px 1px 20px rgb(214, 214, 214), 1px 1px 100px rgb(214, 214, 214),
+    1px 1px 100px rgb(214, 214, 214), 1px 1px 100px rgb(214, 214, 214),
+    1px 1px 100px rgb(214, 214, 214), 1px 1px 100px rgb(214, 214, 214);
+}
+
+.images-land-full {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.images-land-full img {
+  width: 20%;
+  padding: 1%;
+  transition: 0.2s;
+}
+
+.images-land-full img:hover {
+  transform: scale(2);
+}
+
+.images-web {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.images-web img {
+  width: 60%;
+  padding: 1%;
+}
+
+@media (max-width: 900px) {
+  .back-logo {
+    display: none;
+  }
+  main {
+    margin-top: 55%;
+    margin-left: 40%;
+    display: grid;
+    position: absolute;
+    align-items: center;
+  }
+  main img {
+    width: 200px;
+    height: 200px;
+    animation-name: rotate;
+    position: absolute;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border-radius: 50%;
+    opacity: 0.4;
+  }
+
+  .Part-second .left {
+    width: 80%;
+    border: 1px solid black;
+    margin: 5%;
+    
+    transition: 0.2s;
+  }
+
+  .Part-second .right {
+    width: 80%;
+    border: 1px solid black;
+    margin: 5%;
+    transition: 0.2s;
+  }
+
+  .content-second-left {
+    
+    position: relative;
+    display: block;
+  }
+
+  .content-second-right {
+    margin-left: 0%;
+    position: relative;
+    display: block;
+  }
 }

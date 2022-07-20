@@ -16,10 +16,7 @@ function App() {
       <img src={vishwash} className="back-logo"/>
       <div className='black'>
         <div className='nav'>
-            <h5><a href='#'>Works</a></h5>
-            <h5><a href='https://vishwashcv.github.io/portfolio/vishwash.pdf'>Resume</a></h5>
-            <h5><a href='https://www.linkedin.com/in/vishwash-cv-59a698233'>LinkedIn</a></h5>
-            <h5><a href='https://www.behance.net/vishwashcv'>Behance</a></h5>
+            
         </div>
         <div className='front-content'>
           <h1>Hi, I'm Vishwash</h1>
