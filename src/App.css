@@ -47,7 +47,7 @@ body {
 
 
 .front-content {
-  margin-top: 15%;
+  margin-top: 40vh;
   margin-left: 10%;
   position: absolute;
 }
@@ -545,3 +545,23 @@ footer {
     display: block;
   }
 }
+
+
+
+@media (max-width: 1600px){
+
+.front-content {
+  margin-top: 35vh;
+  margin-left: 10%;
+  position: absolute;
+}
+}
+
+@media (max-width: 1360px){
+
+  .front-content {
+    margin-top: 30vh;
+    margin-left: 10%;
+    position: absolute;
+  }
+  }
