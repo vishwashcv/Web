@@ -501,7 +501,9 @@ footer {
   .back-logo {
     display: none;
   }
-  
+  h1 {
+    font-size: 1rem;
+  }
   main {
     margin-top: 55%;
     margin-left: 10%;
