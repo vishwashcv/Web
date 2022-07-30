@@ -9,7 +9,6 @@ function App() {
       <div class="loader-wrapper">
       <span class="loader"><span class="loader-inner"></span></span>
       </div>
-      <section></section>
       <div className='square'></div>
       <div className='square-1'></div>
       <div className='square-2'></div>

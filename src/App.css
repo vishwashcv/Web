@@ -517,6 +517,10 @@ footer {
     border-radius: 50%;
     opacity: 0.4;
   }
+  h2 {
+    font-size: 100%;
+    padding: 20px;
+  }
 
   .Part-second .left {
     width: 80%;

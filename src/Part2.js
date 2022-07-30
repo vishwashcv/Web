@@ -20,9 +20,11 @@ import Thirteen from './images/14.png';
 import Fourteen from './images/15.jpg';
 import Fifteen from './images/16.jpg';
 
+
 function Partsecond() {
     return (
         <div className='Part-second'>
+            {/*
             <a href='https://vishwashcv.github.io/sample_websites/index.html'>
             <h1 className='heading'>My Works</h1>
            <div className='one'>
@@ -81,7 +83,7 @@ function Partsecond() {
             </div>
             <img src={fifth} className='left'/>
            </div>
-           </a>
+           </a> */}
 
             <div><h1 className='heading'>Landing Web Page Designs</h1></div>
             <div className='images-land'>
