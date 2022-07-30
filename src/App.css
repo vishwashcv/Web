@@ -355,6 +355,7 @@ section:before {
   padding-left: 10%;
   padding-bottom: 1%;
   margin-top: 12%;
+  font-size: 100%;
 }
 
 .Part-second .left {
@@ -495,10 +496,12 @@ footer {
 
 
 
+
 @media (max-width: 900px) {
   .back-logo {
     display: none;
   }
+  
   main {
     margin-top: 55%;
     margin-left: 10%;
